@@ -46,7 +46,9 @@ repositories {
 }
 
 dependencies {
-    compile 'cn.leancloud.android:avoscloud-sdk:v3.0.+'
-    compile 'cn.leancloud.android:avoscloud-sns:v3.0.+'
+    // LeanCloud 基础包
+    compile ('cn.leancloud.android:avoscloud-sdk:v3.+')
+    // avoscloud-sns：LeanCloud 第三方登录包
+    compile ('cn.leancloud.android:avoscloud-sns:v3.+@aar')
     compile 'com.jakewharton:butterknife:6.1.0'
 }
